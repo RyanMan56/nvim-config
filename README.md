@@ -1,6 +1,6 @@
 # nvim-config
 
-Custom neovim config. This is a clone of my `~/.config/nvim` folder
+Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i4amO_zaE). This is a clone of my `~/.config/nvim` folder
 
 ## Keep in mind
 - leader is an empty space
