@@ -27,3 +27,4 @@ Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i
 ## Handy vim motions
 - `V:s/SEARCH_TERM/NEW_TERM/g` `V` enters visual mode and selects the whole line, `:s/SEARCH_TERM/NEW_TERM` searches for `SEARCH_TERM` and replaces it with `NEW_TERM`, and the `/g` at the end replaces all occurances of it in that line
 - `<C-a>` finds the first occurance § number and increments it by 1
+- `ci` (change inside), changes the inside of the following character. E.g. `ci'` deletes everything inside a set of `''` 
