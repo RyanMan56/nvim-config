@@ -11,6 +11,10 @@ Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i
 - `<C-p>` find files in git repo
 - `<leader>ps` grep using [ripgrep](https://github.com/BurntSushi/ripgrep)
 - `<leader>u` open the undo tree
+- `<leader>gs` open the git status window
+  - Can enter visual mode, highlight multiple blocks and press `s` to stage/unstage
+  - Can use `cc` to quickly create a new commit
+  - Then can use `:Git` followed by a standard git command, e.g. `:Git push` to push
 
 ### Harpoon commands
 - `<leader>a` mark a file
