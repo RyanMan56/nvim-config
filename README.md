@@ -11,6 +11,6 @@ Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i
 - `<C-p>` find files in git repo
 - `<leader>ps` grep using [ripgrep](https://github.com/BurntSushi/ripgrep)
 
-
+- `:so` to source a file
 - `:PackerSync` to sync packer packages
 - `:checkhealth` to run an nvim healthcheck
