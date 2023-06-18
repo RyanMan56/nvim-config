@@ -24,6 +24,12 @@ Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i
 - `<C-n>` switch to file 3
 - `<C-s>` switch to file 4
 
+## LSP commands
+- `<C-p>` select previous suggestion
+- `<C-n>` select next suggestion
+- `<C-y>` confirm suggestion
+- `<C-Space>` complete suggestion
+
 ### Ex commands
 - `:so` to source a file
 - `:PackerSync` to sync packer packages
