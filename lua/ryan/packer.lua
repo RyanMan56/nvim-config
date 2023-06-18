@@ -11,10 +11,17 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  -- Commented out for now as I couldn't get it to look right. Same with the colors file
-  -- use {'nyoom-engineering/oxocarbon.nvim'}
-  -- vim.opt.background = "dark" -- set this to dark or light
-  -- vim.cmd("colorscheme oxocarbon")
-  
+  use {
+	  "folke/tokyonight.nvim",
+	  lazy = false,
+	  priority = 1000,
+	  opts = {},
+  }
+
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+  use('nvim-treesitter/playground')
+  use('ThePrimeagen/harpoon')
+  use('mbbill/undotree')
+  use('tpope/vim-fugitive')
+  
 end)
