@@ -41,3 +41,4 @@ Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i
 - `ci` (change inside), changes the inside of the following character. E.g. `ci'` deletes everything inside a set of `''` 
 - `<C-w>` change window. E.g. `<C-w>h` to go left a window
 - `<leader>gd` go to definition currently highlighted
+- `/SEARCH_TERM* =` in this example searched for `SEARCH_TERM` followed by any string. The space signifies that we break out of the `*` and then search for an `=`
