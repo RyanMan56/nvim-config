@@ -50,3 +50,4 @@ Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i
 - `<C-w>` change window. E.g. `<C-w>h` to go left a window
 - `<leader>gd` go to definition currently highlighted
 - `/SEARCH_TERM* =` in this example searched for `SEARCH_TERM` followed by any string. The space signifies that we break out of the `*` and then search for an `=`
+- `f` goes forward to an occurrence of a letter (e.g. `fa` would go to the first occurrence of `a`) then pressing `;` goes to the next, and pressing `,` goes to the previous
