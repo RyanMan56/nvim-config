@@ -15,6 +15,14 @@ Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i
   - Can enter visual mode, highlight multiple blocks and press `s` to stage/unstage
   - Can use `cc` to quickly create a new commit
   - Then can use `:Git` followed by a standard git command, e.g. `:Git push` to push
+- When something is selected in visual mode: `J` or `K` to move that selection up or down
+- `J` appends the following line to the current line (but modified to keep your cursor in place)
+- `<C-d>` and `<C-u>` jumps down and up half a page (modified to keep the cursor in the middle)
+- `n` and `N` when searching for something (e.g. `/vim`) `n` goes to the next occurance and `N` goes to the previous. (modified to keep the selection in the middle of the screen)
+- `<leader>p` pastes over a selection without losing the paste buffer (so you can paste the item again and again. Usually it would have replaced the paste buffer with the highlighted term)
+- `<leader>y` enters the plus buffer, so you can e.g. `ap` (to copy a paragraph) and it will copy straight onto your system clipboard
+- `<leader>s` allows you to replace all occurances of the word your cursor is on
+- `<leader>x` makes the current file executable
 
 ### Harpoon commands
 - `<leader>a` mark a file
