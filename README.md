@@ -40,3 +40,4 @@ Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i
 - `<C-a>` finds the first occurance § number and increments it by 1
 - `ci` (change inside), changes the inside of the following character. E.g. `ci'` deletes everything inside a set of `''` 
 - `<C-w>` change window. E.g. `<C-w>h` to go left a window
+- `<leader>gd` go to definition currently highlighted
