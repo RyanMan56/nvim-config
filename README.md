@@ -54,3 +54,7 @@ Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i
 - `F` does the opposite (navigates to the previous occurrence of a word)
 - `I` enters insert mode at the beginning of the line. `A` enters insert mode at the end of the line
 - `o` creates a new line **below** and enters insert mode. `O` creates a new line **above** and enters insert mode
+
+## Handy vim editor commands
+- `<C-w>v` duplicates the current window horizontally
+- `<C-w>o` closes all other windows
