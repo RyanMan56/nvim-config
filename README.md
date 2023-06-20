@@ -1,4 +1,4 @@
-# nvim-config
+# nvim-config & cheat sheet
 
 Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i4amO_zaE). This is a clone of my `~/.config/nvim` folder
 
@@ -50,3 +50,7 @@ Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i
 - `<C-w>` change window. E.g. `<C-w>h` to go left a window
 - `<leader>gd` go to definition currently highlighted
 - `/SEARCH_TERM* =` in this example searched for `SEARCH_TERM` followed by any string. The space signifies that we break out of the `*` and then search for an `=`
+- `f` goes forward to an occurrence of a letter (e.g. `fa` would go to the first occurrence of `a`) then pressing `;` goes to the next, and pressing `,` goes to the previous
+- `F` does the opposite (navigates to the previous occurrence of a word)
+- `I` enters insert mode at the beginning of the line. `A` enters insert mode at the end of the line
+- `o` creates a new line **below** and enters insert mode. `O` creates a new line **above** and enters insert mode
