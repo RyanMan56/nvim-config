@@ -26,6 +26,7 @@ Custom neovim config loosely based on [The Primeagen's nvim config](https://yout
 
 ### Telescope commands
 - `<leader>pf` find files
+
 While in telescope:
 - `<C-y>` yanks selected file path to clipboard
 
