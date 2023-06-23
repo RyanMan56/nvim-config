@@ -1,6 +1,6 @@
 # nvim-config & cheat sheet
 
-Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i4amO_zaE). This is a clone of my `~/.config/nvim` folder
+Custom neovim config loosely based on [The Primeagen's nvim config](https://youtu.be/w7i4amO_zaE). This is a clone of my `~/.config/nvim` folder
 
 ## Keep in mind
 - leader is an empty space
@@ -23,6 +23,11 @@ Custom neovim config based on [The Primeagen's nvim config](https://youtu.be/w7i
 - `<leader>y` enters the plus buffer, so you can e.g. `ap` (to copy a paragraph) and it will copy straight onto your system clipboard
 - `<leader>s` allows you to replace all occurances of the word your cursor is on
 - `<leader>x` makes the current file executable
+
+### Telescope commands
+- `<leader>pf` find files
+While in telescope:
+- `<C-y>` yanks selected file path to clipboard
 
 ### Harpoon commands
 - `<leader>a` mark a file
